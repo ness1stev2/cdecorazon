@@ -15,12 +15,12 @@ export const routes: Routes = [
         title: 'Reflexiones Diarias',
         loadComponent: () => import('./cdecorazon/pages/reflexiones/reflexiones.component')
       },
-      {
-        path: 'ayuda',
-        title: 'Ayuda a un amigo o familiar',
-        loadComponent: () => import('./cdecorazon/pages/ayuda-am-fa/ayuda-am-fa.component')
-      },
     ]
+  },
+  {
+    path: 'ayuda-fa-ma',
+    title: 'Ayuda a un familiar o amigo',
+    loadComponent: () => import('./cdecorazon/pages/ayuda-am-fa/ayuda-am-fa.component')
   },
   {
     path: 'donde-encontrarnos',

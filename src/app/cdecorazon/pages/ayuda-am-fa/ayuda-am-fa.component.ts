@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
+import { RedesGrupoComponent } from '../encontrarnos/components/redes-grupo/redes-grupo.component';
+import { AutodiagnosticoComponent } from '../../components/autodiagnostico/autodiagnostico.component';
+import { RedesSocialesComponent } from '../../components/redes-sociales/redes-sociales.component';
 
 @Component({
   standalone: true,
-  imports: [],
+  imports: [RedesGrupoComponent, AutodiagnosticoComponent, RedesSocialesComponent],
   templateUrl: './ayuda-am-fa.component.html',
-  styleUrl: './ayuda-am-fa.component.scss'
 })
 export default class AyudaAmFaComponent {
 

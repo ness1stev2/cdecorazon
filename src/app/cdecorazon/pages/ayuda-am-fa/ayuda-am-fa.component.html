@@ -1,1 +1,125 @@
-<p>ayuda-am-fa works!</p>
+<section class="encontrarnos">
+
+  <div
+    class="header rounded-3xl m-2 h-[90vh] lg:h-[70vh] md: bg-no-repeat bg-cover bg-fixed bg-center md:bg-left-top bg-[url('/assets/img/2148518345.jpg')]">
+    <div class="relative mx-auto top-1/4 flex flex-col items-center gap-3">
+      <h1 class="text-5xl text-white text-center" style="text-shadow: #3b383b 0px 0px 10px;">Ayuda para un familiar o
+        amigo</h1>
+      <app-redes-sociales [color]="'#ffffff'" />
+    </div>
+  </div>
+
+  <div class="flex flex-col gap-9 py-9 px-2">
+
+    <app-autodiagnostico />
+
+    <div class="bg-slate-50 p-7 text-center flex flex-col gap-4">
+      <h2 class="text-[#ff9d5a] text-4xl">¿Hay ayuda para mí?</h2>
+      <p class="text-xl  text-[#3b383b]">Los grupos de familia Al-Anon, Al-Anon hijos adultos y Alateen ofrecen ayuda y
+        esperanza</p>
+      <p class="text-xl  text-[#3b383b]">A.A. está integrado por alcohólicos que ayudan a otros alcohólicos a
+        recuperarse.
+        Los grupos de familias son otro programa de recuperación de Doce Paso</p>
+    </div>
+
+    <div class="locales-izquierda">
+      <div class="container mx-auto">
+        <div class="flex flex-col-reverse lg:flex-row gap-4 p-7 bg-slate-100 rounded-xl items-center">
+          <div class="basis-full md:basis-1/2">
+            <iframe class="rounded-xl w-[100%] h-96"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29864.314806206334!2d-103.38443!3d20.667978000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae748602e2af%3A0x2c01ae8253c321d7!2sAv.%20de%20los%20Arcos%20611%2C%20Jardines%20del%20Bosque%2C%2044520%20Guadalajara%2C%20Jal.%2C%20M%C3%A9xico!5e0!3m2!1ses!2sus!4v1713213091837!5m2!1ses!2sus"
+              style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="basis-full md:basis-1/2 flex flex-col justify-center items-center gap-4">
+            <img class="rounded-full w-1/2" src="assets/grupos/al-anon.jpg" alt="">
+            <app-redes-grupo [facebook]="'https://www.facebook.com/DANalanon/'"
+              [instagram]="'https://www.instagram.com/despertar_al_nucleo/'" [telefono]="'3312415702'" />
+            <p class="text-lg text-center">El grupo de Al-Anon Despertar al Núcleo es una hermandad de parientes y
+              amigos de adictos que comparten sus experiencias, fortaleza y esperanza con el fin de encontrar solución a
+              su problema en común.
+              <br><br>
+              Creemos que las adicciones son una enfermedad de la familia y que un cambio de actitud puede ayudar a la
+              recuperación. Tenemos sumo cuidado en proteger el anonimato de cada miembro.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="locales-derecha">
+      <div class="container mx-auto">
+        <div class="flex flex-col lg:flex-row gap-4 p-7 bg-slate-200 rounded-xl items-center">
+          <div class="basis-full md:basis-1/2 flex flex-col justify-center items-center gap-4">
+            <img class="rounded-full w-1/2" src="assets/grupos/alateen.jpg" alt="">
+            <app-redes-grupo [facebook]="'https://www.facebook.com/metamorfosisalateen'"
+              [instagram]="'https://www.instagram.com/metamorfosis_alateen'" [telefono]="''" />
+            <p class="text-lg text-center">Alateen es una hermandad constituida por jóvenes cuya vida a sido afectada
+              por el alcoholismo de un familiar o amigo intimo. Se ayudan mutuamente compartiendo su experiencia,
+              fortaleza y esperanza. No se discute religion ni se compromete con ninguna organización agenda, nos
+              mantenemos con nuestras propias contribuciones.
+              <br><br>
+              El objetivo primordial de Alateen es solucionar nuestros propios problemas, tenemos sumo cuidado con
+              proteger el anonimato de cada uno de sus miembros. Se aplican los 12 pasos a nosotros mismos para empezar
+              a crecer mental, emocional y espiritualmente.
+            </p>
+          </div>
+          <div class="basis-full md:basis-1/2">
+            <iframe class="rounded-xl w-[100%] h-96"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29864.314806206334!2d-103.38443!3d20.667978000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae748602e2af%3A0x2c01ae8253c321d7!2sAv.%20de%20los%20Arcos%20611%2C%20Jardines%20del%20Bosque%2C%2044520%20Guadalajara%2C%20Jal.%2C%20M%C3%A9xico!5e0!3m2!1ses!2sus!4v1713213091837!5m2!1ses!2sus"
+              style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="locales-izquierda">
+      <div class="container mx-auto">
+        <div class="flex flex-col-reverse lg:flex-row gap-4 p-7 bg-slate-300 rounded-xl items-center">
+          <div class="basis-full md:basis-1/2">
+            <iframe class="rounded-xl w-[100%] h-96"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14943.894307212491!2d-104.042134!3d20.548262!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8426764f7dcce3c1%3A0x5a32b2be0f16671b!2sC.%20Guti%C3%A9rrez%2095%2C%20Los%20Naranjos%2C%2046600%20Ameca%2C%20Jal.%2C%20M%C3%A9xico!5e0!3m2!1ses!2sus!4v1713214224717!5m2!1ses!2sus"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="basis-full md:basis-1/2 flex flex-col justify-center items-center gap-4">
+            <img class="rounded-full w-1/2" src="assets/grupos/dan-ameca.jpg" alt="">
+            <app-redes-grupo [facebook]="'https://www.facebook.com/AlanonAmeca'"
+              [instagram]="'https://www.instagram.com/dan_ameca?igsh=MTRnZzEwZjNxbmF2Zg=='" [telefono]="'3338741737'" />
+            <p class="text-lg text-center">Despertar al Núcleo Ameca es un grupo de familiares y amigos de alcohólicos
+              donde compartimos nuestra experiencia, fortaleza y esperanza.
+              <br><br>
+              Ya que el alcoholismo es una enfermedad que no solo afecta al bebedor compulsivo sino a todos los que lo
+              rodean, y aprendemos a vivir mejor independientemente de que él alcohólico este activo o no.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="locales-derecha">
+      <div class="container mx-auto">
+        <div class="flex flex-col lg:flex-row gap-4 p-7 bg-slate-400 rounded-xl items-center">
+          <div class="basis-full md:basis-1/2 flex flex-col justify-center items-center gap-4">
+            <img class="rounded-full w-1/2" src="assets/grupos/alma-nova.jpg" alt="">
+            <app-redes-grupo [facebook]="'https://www.facebook.com/profile.php?id=100090134182744'"
+              [instagram]="'https://www.instagram.com/almanova_alanon'" [telefono]="'3319535166'" />
+            <p class="text-lg text-center text-white">El grupo de Al-Anon Hijos Adultos Alma Nova es para los jóvenes
+              adultos que han sido afectados por el alcoholismo de un familiar o un amigo. Nos ayudamos mutuamente
+              compartiendo nuestras experiencias, fortaleza y esperanza.
+              <br><br>
+              Estamos convencidos de que el alcoholismo es una enfermedad de la familia que afecta a todos emocional y a
+              veces físicamente. Tenemos sumo cuidado en proteger el anonimato de cada miembro.</p>
+          </div>
+          <div class="basis-full md:basis-1/2">
+            <iframe class="rounded-xl w-[100%] h-96"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29864.314806206334!2d-103.38443!3d20.667978000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae748602e2af%3A0x2c01ae8253c321d7!2sAv.%20de%20los%20Arcos%20611%2C%20Jardines%20del%20Bosque%2C%2044520%20Guadalajara%2C%20Jal.%2C%20M%C3%A9xico!5e0!3m2!1ses!2sus!4v1713213091837!5m2!1ses!2sus"
+              style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
