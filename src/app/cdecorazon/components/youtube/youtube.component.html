@@ -1,21 +1,53 @@
-<section class="youtube bg-[#ebebeb] py-14">
+<section class="youtube bg-[#f0565d] py-14">
   <div class="container mx-auto w-9/12">
     <div class="flex flex-col xl:flex-row gap-16">
       <div class="flex xl:flex-row flex-col basis-1/4 items-center justify-center gap-5">
-        <div class="flex justify-center basis-2/6">
-          <img class="w-44" src="assets/icon/youtube.svg" alt="icono Youtube">
-        </div>
-        <h3 class="text-[#3b383b] text-3xl basis-4/6">
-          Nuestro Canal
-          <br>
-          de <span class="text-[#f0565d]">YouTube</span>
-        </h3>
+        @defer(on viewport) {
+          <div class="flex justify-center basis-2/6">
+            <svg fill="#ffffff" class="animate__animated animate__fadeInUp animate__slower" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="80" height="80">
+              <g id="XMLID_184_">
+                <path d="M23.498,6.186c-0.276-1.039-1.089-1.858-2.122-2.136C19.505,3.546,12,3.546,12,3.546s-7.505,0-9.377,0.504   C1.591,4.328,0.778,5.146,0.502,6.186C0,8.07,0,12,0,12s0,3.93,0.502,5.814c0.276,1.039,1.089,1.858,2.122,2.136   C4.495,20.454,12,20.454,12,20.454s7.505,0,9.377-0.504c1.032-0.278,1.845-1.096,2.122-2.136C24,15.93,24,12,24,12   S24,8.07,23.498,6.186z M9.546,15.569V8.431L15.818,12L9.546,15.569z"/>
+              </g>
+              </svg>
+            <!-- <img  src="assets/icon/youtube.svg" alt="icono Youtube"> -->
+          </div>
+          <h3 class="text-[#3b383b] text-3xl basis-4/6 animate__animated animate__rollIn animate__slow animate__delay-2s">
+            Nuestro Canal
+            <br>
+            de <span class="text-[#ebebeb]">YouTube</span>
+          </h3>
+        }@placeholder {
+          <p>Cargando...</p>
+        }
       </div>
       <div class="flex basis-3/4 flex-wrap justify-center gap-5">
-        <iframe width="340" height="190" src="https://www.youtube.com/embed/MUrAhE2407o?si=DE_AP5hcdj5KyDHC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe width="340" height="190" src="https://www.youtube.com/embed/ELIjTp9HI2Q?si=E89mtX1CEqh2Q_8z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe width="340" height="190" src="https://www.youtube.com/embed/Tjq1NZWWf3Q?si=DSHzfQCIUkrHdIlS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe width="340" height="190" src="https://www.youtube.com/embed/xY6D4OVuGpY?si=cvV9auGJoO5d2eAl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        @defer(on viewport) {
+          <iframe width="340" height="190" src="https://www.youtube.com/embed/MUrAhE2407o?si=DE_AP5hcdj5KyDHC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        }@placeholder {
+          <p>Cargando...</p>
+
+        }
+        @defer(on viewport) {
+          <iframe width="340" height="190" src="https://www.youtube.com/embed/Tjq1NZWWf3Q?si=DSHzfQCIUkrHdIlS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        }@placeholder {
+          <p>Cargando...</p>
+
+        }
+        @defer(on viewport) {
+          <iframe width="340" height="190" src="https://www.youtube.com/embed/xY6D4OVuGpY?si=cvV9auGJoO5d2eAl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        }@placeholder {
+          <p>Cargando...</p>
+
+        }
+        @defer(on viewport){
+          <iframe width="340" height="190" src="https://www.youtube.com/embed/ELIjTp9HI2Q?si=E89mtX1CEqh2Q_8z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        }@placeholder {
+          <p>Cargando...</p>
+        }
       </div>
     </div>
   </div>

@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-asiste',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './asiste.component.html',
   styles: ``
 })

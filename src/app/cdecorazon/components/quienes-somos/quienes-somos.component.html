@@ -1,9 +1,13 @@
-<section class="quienes-somos">
-  <div class="container mx-auto w-9/12">
+<section class="quienes-somos overflow-hidden">
+  <div class="container mx-auto">
 
-    <div class="flex flex-col-reverse md:flex-row items-center content-center gap-7 py-14">
-      <div class="basis-2/5 flex justify-center">
-        <div class="w-3/4 text-xl xl:text-3xl text-[#f0565d] text-center whitespace-pre-wrap ">
+    <div class="flex flex-col gap-6 py-14">
+
+        @defer(on viewport){
+        <h2 class="text-4xl uppercase font-semibold text-[#f0565d] text-center animate__animated animate__backInUp animate__slow ">¿Quiénes somos y que hacemos?
+        </h2>
+        <p
+          class="text-xl text-[#3b383b] text-center animate__animated animate__backInLeft animate__fast">
           C de Corazón somos personas
           con el objetivo en común de
           dejar de sufrir en cualquiera
@@ -11,18 +15,13 @@
           de nuestro programa son
           fáciles, claros y al alcance de
           todos
-        </div>
-      </div>
-      <div class="flex justify-center basis-1/5">
-        <img src="assets/icon/flecha-izquierda.svg" class="basis-auto items-center justify-center hidden md:flex w-40"  alt="flecha izquierda">
-        <img src="assets/icon/flecha-abajo.svg" class="basis-1/5 flex items-center justify-center  md:hidden w-20"  alt="flecha abajo">
-      </div>
-      <div class="basis-2/5 flex flex-col justify-center items-center gap-4">
-        <img src="assets/icon/usuarios.png" width="100" alt="icono usuarios">
-        <h2 class="text-4xl text-[#3b383b] text-center">¿Quiénes somos <br>y que hacemos?</h2>
-      </div>
+        </p>
+        }@placeholder {
+        <p>Cargando..</p>
+        }
+
+
     </div>
 
   </div>
 </section>
-
