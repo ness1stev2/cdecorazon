@@ -1,27 +1,187 @@
-<h1>Autodiagnóstico</h1>
+<div class="container mx-auto py-28">
 
-<p>¿Creciste en una familia problemática, reprimida, quimicamente dependiente, o disfuncional?</p>
+  <h1 class="text-4xl md:text-7xl text-center md:text-start mb-5">Autodiagnostico</h1>
 
-<p>¿Te sientes demasiado responsable de los sentimientos, pensamientos, acciones, necesidades y bienestar de otros?</p>
+  <!-- @for (item of items; track $index) {
+    <div class="content-form">
+      <div class="form-group">
+        <label></label>
+        <div class="opciones">
+          <div class="mb-3 mx-4 md:mx-0 p-10 md:p-5 border-2 rounded-full">
+            <input class="form-check-input" type="radio" name="pregunta{{ i }}" id="pregunta">
+          </div>
+        </div>
+      </div>
+    </div>
+  } -->
+  <div class="mb-3 mx-4 md:mx-0 p-10 md:p-5 border-2 rounded-full">
 
-<p>¿Crees que no puedes ser feliz hasta que otra persona - padre, hijo, amigo, amante o pareja - cambie su conducta?</p>
+    <p><strong>1.-</strong> ¿Creciste en una familia problemática, reprimida, quimicamente dependiente, o disfuncional?
+    </p>
 
-<p>¿Estás esperando que otra persona cambie para poder ser feliz?</p>
+    <input class="mr-2" type="radio" name="resp" id="" value="Si">
+    <label class="text-lg mr-2" for="resp">Si</label>
 
-<p>¿Usualmente no dices lo que sientes?</p>
+    <input class="mr-2" type="radio" name="resp" id="" value="No">
+    <label class="text-lg mr-2" for="resp">No</label>
+  </div>
 
-<p>¿Tratas de complacer a otros y nunca a ti mismo?</p>
+  <div class="mb-3 mx-4 md:mx-0 p-10 md:p-5 border-2 rounded-full">
 
-<p>¿Sientes que tienes que ponerte furioso y gritar para que te oigan?</p>
+    <p><strong>2.-</strong> ¿Te sientes demasiado responsable de los sentimientos, pensamientos, acciones, necesidades y
+      bienestar de otros?</p>
 
-<p>¿Te sientes estancado, atrapado y desesperanzado, pero te dices a ti mismo que tu problema no es tan serio como para
-  necesitar ayuda?</p>
+    <input class="mr-2" type="radio" name="resp1" id="" value="Si">
+    <label class="text-lg mr-2" for="resp1">Si</label>
 
-<p>¿Te preocupas por una persona hasta el punto de no tener un sueño normal, enfermarte y no poder relajarte y disfrutar de
-  la vida?</p>
+    <input class="mr-2" type="radio" name="resp1" id="" value="No">
+    <label class="text-lg mr-2" for="resp1">No</label>
+  </div>
 
-<p>¿Te sientes aburrido, vacio y sin valor si no eres productivo?</p>
+  <div class="mb-3 mx-4 md:mx-0 p-10 md:p-5 border-2 rounded-full">
 
-<p>¿Tienes miedo al rechazo, abandono o soledad?</p>
+    <p><strong>3.-</strong> ¿Crees que no puedes ser feliz hasta que otra persona - padre, hijo, amigo, amante o pareja
+      - cambie su conducta?
+    </p>
 
-<p>Si de manera honesta haz contestado Sí a alguna de estas preguntas, no estás sola(o), estamos para ayudarte.</p>
+    <input class="mr-2" type="radio" name="resp2" id="" value="Si">
+    <label class="text-lg mr-2" for="resp2">Si</label>
+
+    <input class="mr-2" type="radio" name="resp2" id="" value="No">
+    <label class="text-lg mr-2" for="resp2">No</label>
+  </div>
+
+  <div class="mb-3 mx-4 md:mx-0 p-10 md:p-5 border-2 rounded-full">
+
+    <p><strong>4.-</strong> ¿Estás esperando que otra persona cambie para poder ser feliz?
+    </p>
+
+    <input class="mr-2" type="radio" name="resp3" id="" value="Si">
+    <label class="text-lg mr-2" for="resp3">Si</label>
+
+    <input class="mr-2" type="radio" name="resp3" id="" value="No">
+    <label class="text-lg mr-2" for="resp3">No</label>
+  </div>
+
+  <div class="mb-3 mx-4 md:mx-0 p-10 md:p-5 border-2 rounded-full">
+
+    <p><strong>5.-</strong> ¿Usualmente no dices lo que sientes?
+    </p>
+
+    <input class="mr-2" type="radio" name="resp4" id="" value="Si">
+    <label class="text-lg mr-2" for="resp4">Si</label>
+
+    <input class="mr-2" type="radio" name="resp4" id="" value="No">
+    <label class="text-lg mr-2" for="resp4">No</label>
+  </div>
+
+  <div class="mb-3 mx-4 md:mx-0 p-10 md:p-5 border-2 rounded-full">
+
+    <p><strong>6.-</strong> ¿Tratas de complacer a otros y nunca a ti mismo?</p>
+
+    <input class="mr-2" type="radio" name="resp5" id="" value="Si">
+    <label class="text-lg mr-2" for="resp5">Si</label>
+
+    <input class="mr-2" type="radio" name="resp5" id="" value="No">
+    <label class="text-lg mr-2" for="resp5">No</label>
+  </div>
+
+  <div class="mb-3 mx-4 md:mx-0 p-10 md:p-5 border-2 rounded-full">
+
+    <p><strong>7.-</strong> ¿Sientes que tienes que ponerte furioso y gritar para que te oigan?</p>
+
+    <input class="mr-2" type="radio" name="resp6" id="" value="Si">
+    <label class="text-lg mr-2" for="resp6">Si</label>
+
+    <input class="mr-2" type="radio" name="resp6" id="" value="No">
+    <label class="text-lg mr-2" for="resp6">No</label>
+  </div>
+
+  <div class="mb-3 mx-4 md:mx-0 p-10 md:p-5 border-2 rounded-full">
+
+    <p><strong>8.-</strong> ¿Te sientes estancado, atrapado y desesperanzado, pero te dices a ti mismo que tu problema
+      no es tan serio como para
+      necesitar ayuda?</p>
+
+    <input class="mr-2" type="radio" name="resp7" id="" value="Si">
+    <label class="text-lg mr-2" for="resp7">Si</label>
+
+    <input class="mr-2" type="radio" name="resp7" id="" value="No">
+    <label class="text-lg mr-2" for="resp7">No</label>
+  </div>
+
+  <div class="mb-3 mx-4 md:mx-0 p-10 md:p-5 border-2 rounded-full">
+
+    <p><strong>9.-</strong> ¿Te preocupas por una persona hasta el punto de no tener un sueño normal, enfermarte y no
+      poder relajarte y disfrutar de
+      la vida?</p>
+
+    <input class="mr-2" type="radio" name="resp8" id="" value="Si">
+    <label class="text-lg mr-2" for="resp8">Si</label>
+
+    <input class="mr-2" type="radio" name="resp8" id="" value="No">
+    <label class="text-lg mr-2" for="resp8">No</label>
+  </div>
+
+  <div class="mb-3 mx-4 md:mx-0 p-10 md:p-5 border-2 rounded-full">
+
+    <p><strong>10.-</strong> ¿Te sientes aburrido, vacio y sin valor si no eres productivo?</p>
+
+    <input class="mr-2" type="radio" name="resp9" id="" value="Si">
+    <label class="text-lg mr-2" for="resp9">Si</label>
+
+    <input class="mr-2" type="radio" name="resp9" id="" value="No">
+    <label class="text-lg mr-2" for="resp9">No</label>
+  </div>
+
+  <div class="mb-3 mx-4 md:mx-0 p-10 md:p-5 border-2 rounded-full">
+
+    <p><strong>11.-</strong> ¿Tienes miedo al rechazo, abandono o soledad?</p>
+
+    <input class="mr-2" type="radio" name="resp10" id="" value="Si">
+    <label class="text-lg mr-2" for="resp10">Si</label>
+
+    <input class="mr-2" type="radio" name="resp10" id="" value="No">
+    <label class="text-lg mr-2" for="resp10">No</label>
+  </div>
+
+  <div class="mb-3 mx-4 md:mx-0 p-10 md:p-5 border-2 rounded-full">
+
+    <p><strong>12.-</strong> Si de manera honesta haz contestado Sí a alguna de estas preguntas, no estás sola(o),
+      estamos para ayudarte.</p>
+
+    <input class="mr-2" type="radio" name="resp11" id="" value="Si">
+    <label class="text-lg mr-2" for="resp11">Si</label>
+
+    <input class="mr-2" type="radio" name="resp11" id="" value="No">
+    <label class="text-lg mr-2" for="resp11">No</label>
+  </div>
+
+  <div class="flex justify-center md:justify-end">
+    <button (click)="toggleModal()" class="text-3xl bg-[#f0565d] text-white p-4 rounded-full">Enviar</button>
+  </div>
+
+  <div [ngClass]="show ? 'block' : 'invisible'"
+    class="fixed  left-0 top-0 flex h-full w-full items-center justify-center bg-black bg-opacity-50 py-10">
+    <div class="max-h-full w-full max-w-xl overflow-y-auto sm:rounded-2xl bg-white">
+      <div class="w-full">
+        <div class="m-8 my-20 max-w-[400px] mx-auto">
+          <div class="mb-8">
+            <img class="mb-5" src="assets/icon/logo-cdecorazon.png" width="100" alt="Logo colectivo c de corazon">
+            <h1 class="mb-4 text-3xl font-extrabold">Gracias por responder</h1>
+            <p class="text-gray-600">Si de manera honesta haz contestado Si a alguna de estas preguntas, no estás
+              sola(o),
+              estamos para ayudarte.</p>
+            <div class="space-y-4 mt-3">
+              <button routerLink="/ayuda-fa-ma" class="p-3 bg-black text-white  rounded-full w-full font-semibold">Grupos de
+                Al-Anon (Familias)</button>
+              <button routerLink="/donde-encontrarnos"
+                class="p-3 rounded-full bg-white text-black w-full border font-semibold">Grupos de Alcohólicos Anónimos</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
