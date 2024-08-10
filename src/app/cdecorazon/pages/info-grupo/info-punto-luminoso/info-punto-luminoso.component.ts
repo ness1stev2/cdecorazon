@@ -1,4 +1,15 @@
-<div class="container mx-auto pb-5">
+import { CommonModule } from '@angular/common';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { Rutas } from '../components/card-rutas-camion/card-rutas-camion.component';
+
+@Component({
+  selector: 'app-info-punto-luminoso',
+  standalone: true,
+  imports: [
+    CommonModule,
+  ],
+  template: `
+  <div class="container mx-auto pb-5">
   <div class="flex flex-col gap-5">
 
     <div class="flex flex-row gap-5">
@@ -42,3 +53,24 @@
     </div>
   </div>
 </div>
+  `,
+  styles: `
+    :host {
+      display: block;
+    }
+  `,
+  changeDetection: ChangeDetectionStrategy.OnPush,
+})
+export class InfoPuntoLuminosoComponent {
+  imageUrls: string[] = [
+    'assets/grupos/OCV/1.jpeg',
+    'assets/grupos/OCV/3.jpeg',
+    'assets/grupos/OCV/4.jpeg',
+    'assets/grupos/OCV/5.jpeg'
+  ];
+
+  rutas: Rutas[] = [
+    { tituloRuta: 'Ruta 629 Vía 1', descripcion: 'Esta ruta también pasa por la Av. Adolfo López Mateos y conecta varios puntos estratégicos de Guadalajara como Los Arcos, Plaza del Sol, y la Estación Juárez del Tren Ligero' },
+    { tituloRuta: 'Ruta 622', descripcion: 'Esta ruta cubre varios puntos importantes de la ciudad, incluyendo la Av Adolfo López Mateos Norte. Es una de las rutas más completas en cuanto a cobertura de avenidas y puntos de interés como la Glorieta Minerva, Av. Agustín Yáñez, y Av. de las Américas' },
+  ];
+}

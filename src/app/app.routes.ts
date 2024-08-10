@@ -23,6 +23,11 @@ export const routes: Routes = [
     loadComponent: () => import('./cdecorazon/pages/info-grupo/info-grupo.component').then(m => m.InfoGrupoComponent)
   },
   {
+    path: 'info-somos-ameca',
+    title: 'Somos Ameca',
+    loadComponent: () => import('./cdecorazon/pages/info-grupo/info-Somos-Ameca/info-Somos-Ameca.component').then(m => m.InfoSomosAmecaComponent)
+  },
+  {
     path: 'ayuda-fa-ma',
     title: 'Ayuda a un familiar o amigo',
     loadComponent: () => import('./cdecorazon/pages/ayuda-am-fa/ayuda-am-fa.component'),
