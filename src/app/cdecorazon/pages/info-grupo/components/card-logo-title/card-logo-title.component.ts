@@ -8,7 +8,7 @@ import { ChangeDetectionStrategy, Component, input, Input } from '@angular/core'
     CommonModule,
   ],
   template: `
-  <div class="flex flex-col justify-center items-center">
+  <div class="flex flex-col justify-center items-center h-full">
     <img class="rounded-full w-60" [src]="srcImg()" alt="">
     <h1 class="text-4xl text-center my-2 text-gray-700">{{nombreGrupo()}}</h1>
   </div>

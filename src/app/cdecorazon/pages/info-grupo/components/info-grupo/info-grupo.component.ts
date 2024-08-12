@@ -10,7 +10,7 @@ import { RedesGrupoComponent } from '../../../encontrarnos/components/redes-grup
     RedesGrupoComponent
   ],
   template: `
-    <div class="flex flex-col gap-4">
+    <div class="flex flex-col justify-center h-full gap-4">
           <div class="">
             <h2 class="text-3xl text-gray-700">Descripción:</h2>
             <p class="text-lg">{{descripcion()}}</p>
