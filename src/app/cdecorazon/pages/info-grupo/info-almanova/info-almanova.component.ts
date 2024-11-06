@@ -62,16 +62,18 @@ import { InfoGrupo } from '../components/info-grupo/info-grupo.component';
 })
 export class InfoAlmanovaComponent {
   imageUrls: string[] = [
-    'assets/grupos/Alanon-Alateen-GDL/1.jpeg',
-    'assets/grupos/Alanon-Alateen-GDL/2.jpeg',
-    'assets/grupos/Alanon-Alateen-GDL/3.jpeg',
+    'assets/grupos/alma-nova/1.webp',
+    'assets/grupos/alma-nova/2.webp',
+    'assets/grupos/alma-nova/3.webp',
+    'assets/grupos/alma-nova/4.webp',
+    'assets/grupos/alma-nova/5.webp',
+    'assets/grupos/alma-nova/6.webp',
+    'assets/grupos/alma-nova/7.webp',
   ];
 
   rutas: Rutas[] = [
-    { tituloRuta: 'Ruta 629 via 1 o 2', descripcion: '' },
-    { tituloRuta: 'Ruta 622', descripcion: '' },
-    { tituloRuta: 'Ruta c109', descripcion: '' },
-    { tituloRuta: 'Ruta 51A-51AB', descripcion: '' },
-    { tituloRuta: 'Ruta 258', descripcion: '' },
+    { tituloRuta: 'Desde centro universitario CUCEA tomar el T-08/C01', descripcion: 'en dirección a av.patria, bajar en plaza patria y tomar el 622 López Mateos o Terranova y bajar después de 16 paradas y caminar 4 minutos en dirección a av de los Arcos 611.' },
+    { tituloRuta: 'Desde Arcos de Zapopan', descripcion: 'Tomar T08 bajar después de 23 paradas (25 min aprox) bajar en plaza patria. ' },
+    { tituloRuta: 'Desde Arcos de Zapopan', descripcion: 'Tomar T18 o 622 López Mateos o Terranova bajar después de 16 paradas y caminar 4 minutos en dirección a av de los Arcos 611.' },
   ];
 }

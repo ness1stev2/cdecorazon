@@ -59,12 +59,30 @@ import { Rutas, CardRutasCamionComponent } from '../components/card-rutas-camion
 export class InfoMetamorfosisComponent {
 
   imageUrls: string[] = [
-    'assets/grupos/Alanon-Alateen-GDL/1.jpeg',
-    'assets/grupos/Alanon-Alateen-GDL/2.jpeg',
-    'assets/grupos/Alanon-Alateen-GDL/3.jpeg',
-    'assets/grupos/Alanon-Alateen-GDL/4.jpeg',
-    'assets/grupos/Alanon-Alateen-GDL/5.jpeg',
-    'assets/grupos/Alanon-Alateen-GDL/6.jpeg',
+    'assets/grupos/metamorfosis/1.jpeg',
+    'assets/grupos/metamorfosis/3.jpeg',
+    'assets/grupos/metamorfosis/4.jpeg',
+    'assets/grupos/metamorfosis/6.jpeg',
+    'assets/grupos/metamorfosis/7.jpeg',
+    'assets/grupos/metamorfosis/1.webp',
+    'assets/grupos/metamorfosis/2.webp',
+    'assets/grupos/metamorfosis/3.webp',
+    'assets/grupos/metamorfosis/4.webp',
+    'assets/grupos/metamorfosis/5.webp',
+    'assets/grupos/metamorfosis/6.webp',
+    'assets/grupos/metamorfosis/7.webp',
+    'assets/grupos/metamorfosis/8.webp',
+    'assets/grupos/metamorfosis/9.webp',
+    'assets/grupos/metamorfosis/10.webp',
+    'assets/grupos/metamorfosis/11.webp',
+    'assets/grupos/metamorfosis/12.webp',
+    'assets/grupos/metamorfosis/13.webp',
+    'assets/grupos/metamorfosis/14.webp',
+    'assets/grupos/metamorfosis/15.webp',
+    'assets/grupos/metamorfosis/16.webp',
+    'assets/grupos/metamorfosis/17.webp',
+    'assets/grupos/metamorfosis/18.webp',
+    'assets/grupos/metamorfosis/19.webp',
   ];
 
   rutas: Rutas[] = [

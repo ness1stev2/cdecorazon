@@ -58,13 +58,15 @@ import { InfoGrupo } from '../components/info-grupo/info-grupo.component';
 })
 export class InfoDanComponent {
   imageUrls: string[] = [
-    'assets/grupos/Alanon-Alateen-GDL/1.jpeg',
-    'assets/grupos/Alanon-Alateen-GDL/2.jpeg',
-    'assets/grupos/Alanon-Alateen-GDL/3.jpeg',
-    'assets/grupos/Alanon-Alateen-GDL/4.jpeg',
-    'assets/grupos/Alanon-Alateen-GDL/5.jpeg',
-    'assets/grupos/Alanon-Alateen-GDL/6.jpeg',
-    'assets/grupos/Alanon-Alateen-GDL/7.jpeg',
+    'assets/grupos/metamorfosis/1.jpeg',
+    'assets/grupos/metamorfosis/3.jpeg',
+    'assets/grupos/metamorfosis/4.jpeg',
+    'assets/grupos/metamorfosis/6.jpeg',
+    'assets/grupos/metamorfosis/7.jpeg',
+    'assets/grupos/dan/1.webp',
+    'assets/grupos/dan/2.webp',
+    'assets/grupos/dan/3.webp',
+    'assets/grupos/dan/4.webp',
   ];
 
   rutas: Rutas[] = [

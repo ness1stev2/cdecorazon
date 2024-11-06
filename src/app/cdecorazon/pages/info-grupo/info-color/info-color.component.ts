@@ -58,12 +58,18 @@ import { InfoGrupo } from '../components/info-grupo/info-grupo.component';
 })
 export class InfoColorComponent {
   imageUrls: string[] = [
+    'assets/grupos/color/3.webp',
+    'assets/grupos/color/4.webp',
+    'assets/grupos/color/5.webp',
+    'assets/grupos/color/6.webp',
+    'assets/grupos/color/1.webp',
     'assets/grupos/color/1.jpeg',
     'assets/grupos/color/2.jpeg',
+    'assets/grupos/color/2.webp',
   ];
 
   rutas: Rutas[] = [
-    { tituloRuta: 'Aun no hay rutas', descripcion: 'Sin rutas por el momento' },
+    { tituloRuta: 'Referencias', descripcion: 'Fachada del edificio "progreso" arriba de los helados "Dolphy", 3er piso, vista del logo del color del despertar, y de "AA", en las ventanas. y al fondo, a la izquierda, la cúpula del "instituto cultural cabañas".' },
 
   ];
 }

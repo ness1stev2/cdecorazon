@@ -22,7 +22,7 @@ import { InfoGrupo } from '../components/info-grupo/info-grupo.component';
       <div class="flex-auto lg:basis-5/12 bg-slate-300 rounded-xl p-6">
 
         <info-grupo descripcion="Grupo de Alanon" horarios="Jueves de 6 PM a 8 PM y Sábados de 5 PM a 7 PM"
-          telefono="3338741737" facebook="https://www.facebook.com/AlanonAmeca"
+          telefono="3344645748" facebook="https://www.facebook.com/AlanonAmeca"
           instagram="https://www.instagram.com/dan_ameca?igsh=MTRnZzEwZjNxbmF2Zg==" />
 
       </div>
@@ -59,12 +59,15 @@ import { InfoGrupo } from '../components/info-grupo/info-grupo.component';
 export class InfoDanAmecaComponent {
   imageUrls: string[] = [
     'assets/grupos/dan-ameca/10.jpeg',
-    'assets/grupos/dan-ameca/2.jpeg',
+    'assets/grupos/dan-ameca/8.webp',
     'assets/grupos/dan-ameca/4.jpeg',
     'assets/grupos/dan-ameca/9.jpeg',
-    'assets/grupos/dan-ameca/5.jpeg',
-    'assets/grupos/dan-ameca/7.jpeg',
-    'assets/grupos/dan-ameca/8.jpeg',
+    'assets/grupos/dan-ameca/6.webp',
+    'assets/grupos/dan-ameca/1.webp',
+    'assets/grupos/dan-ameca/2.webp',
+    'assets/grupos/dan-ameca/2.jpeg',
+    'assets/grupos/dan-ameca/3.webp',
+    'assets/grupos/dan-ameca/4.webp',
   ];
 
   rutas: Rutas[] = [
