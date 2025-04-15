@@ -1,24 +1,19 @@
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 
 @Component({
   selector: 'card-fotos',
   standalone: true,
-  imports: [
-    CommonModule,
-  ],
+  imports: [CommonModule],
   template: `
-  <div class="columns-1 md:columns-2 xl:columns-3 gap-3">
-    @for(srcImg of srcImgs(); track $index){
-      <img class="w-full aspect-auto rounded-xl mb-3" [src]="srcImg"
-        alt="Fotos del Local">
-    }
-  </div>
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div *ngFor="let src of srcImgs" class="overflow-hidden rounded-lg">
+        <img [src]="src" alt="Foto del grupo" class="w-full h-48 object-cover hover:scale-110 transition-transform duration-300">
+      </div>
+    </div>
   `,
-  changeDetection: ChangeDetectionStrategy.OnPush,
+  styles: ``
 })
 export class CardFotosComponent {
-
-  srcImgs = input<string[]>();
-
+  @Input() srcImgs: string[] = [];
 }

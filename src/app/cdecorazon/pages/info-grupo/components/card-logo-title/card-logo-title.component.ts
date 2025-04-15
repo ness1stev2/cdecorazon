@@ -1,22 +1,19 @@
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ChangeDetectionStrategy, Component, input, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card-logo-title',
   standalone: true,
-  imports: [
-    CommonModule,
-  ],
+  imports: [CommonModule],
   template: `
-  <div class="flex flex-col justify-center items-center h-full">
-    <img class="rounded-full w-60" [src]="srcImg()" alt="">
-    <h1 class="text-4xl text-center my-2 text-gray-700">{{nombreGrupo()}}</h1>
-  </div>
+    <div class="flex flex-col items-center justify-center">
+      <img [src]="srcImg" [alt]="nombreGrupo" class="max-w-full h-auto max-h-40 mb-3 rounded-full shadow-lg">
+      <h1 class="text-4xl text-center text-gray-700 font-bold">{{ nombreGrupo }}</h1>
+    </div>
   `,
-  styles: ``,
-  changeDetection: ChangeDetectionStrategy.OnPush,
+  styles: ``
 })
 export class CardLogoTitleComponent {
-  nombreGrupo = input<string>('Datos Vasios');
-  srcImg = input<string>();
- }
+  @Input() srcImg: string = '';
+  @Input() nombreGrupo: string = '';
+}

@@ -18,61 +18,15 @@ export const routes: Routes = [
     loadComponent: () => import('./cdecorazon/pages/reflexiones/reflexiones.component')
   },
   {
-    path: 'info-grupo',
+    path: 'info-grupo/:nombreGrupo',
     title: 'Información del Grupo',
     loadComponent: () => import('./cdecorazon/pages/info-grupo/info-grupo.component').then(m => m.InfoGrupoComponent)
-  },
-  {
-    path: 'info-puntoluminoso',
-    title: 'Punto Luminoso',
-    loadComponent: () => import('./cdecorazon/pages/info-grupo/info-punto-luminoso/info-punto-luminoso.component').then(m => m.InfoPuntoLuminosoComponent)
-  },
-  {
-    path: 'info-elcolor',
-    title: 'El color del Despertar',
-    loadComponent: () => import('./cdecorazon/pages/info-grupo/info-color/info-color.component').then(m => m.InfoColorComponent)
-  },
-  {
-    path: 'info-somos-ameca',
-    title: 'Somos Ameca',
-    loadComponent: () => import('./cdecorazon/pages/info-grupo/info-Somos-Ameca/info-Somos-Ameca.component').then(m => m.InfoSomosAmecaComponent)
-  },
-  {
-    path: 'info-ocv',
-    title: 'Otra CLase de Vuelo',
-    loadComponent: () => import('./cdecorazon/pages/info-grupo/info-ocv/info-ocv.component').then(m => m.InfoOcvComponent)
-  },
-  {
-    path: 'info-coincidir',
-    title: 'Coincidir',
-    loadComponent: () => import('./cdecorazon/pages/info-grupo/info-coincidir/info-coincidir.component').then(m => m.InfoCoincidirComponent)
-  },
-  {
-    path: 'info-metamorfosis',
-    title: 'Metamorfosis Alateen',
-    loadComponent: () => import('./cdecorazon/pages/info-grupo/info-metamorfosis/info-metamorfosis.component').then(m => m.InfoMetamorfosisComponent)
-  },
-  {
-    path: 'info-almanova',
-    title: 'Alma Nova',
-    loadComponent: () => import('./cdecorazon/pages/info-grupo/info-almanova/info-almanova.component').then(m => m.InfoAlmanovaComponent)
-  },
-  {
-    path: 'info-dan',
-    title: 'Derpertar al Núcleo Guadalajara',
-    loadComponent: () => import('./cdecorazon/pages/info-grupo/info-dan/info-dan.component').then(m => m.InfoDanComponent)
-  },
-  {
-    path: 'info-dan-ameca',
-    title: 'Derpertar al Núcleo Ameca',
-    loadComponent: () => import('./cdecorazon/pages/info-grupo/info-dan-ameca/info-dan-ameca.component').then(m => m.InfoDanAmecaComponent)
   },
   {
     path: 'ayuda-fa-ma',
     title: 'Ayuda a un familiar o amigo',
     loadComponent: () => import('./cdecorazon/pages/ayuda-am-fa/ayuda-am-fa.component'),
   },
-
   {
     path: 'autodiagnostico-aa',
     title: 'Autodiagnóstico',
@@ -83,7 +37,57 @@ export const routes: Routes = [
     title: 'Autodiagnóstico - al-anon',
     loadComponent: () => import('./cdecorazon/pages/autodiagnostico-alanon/autodiagnostico-alanon.component').then(m => m.AutodiagnosticoAlanonComponent)
   },
-
+  // Rutas de compatibilidad para mantener enlaces antiguos funcionando
+  {
+    path: 'info-puntoluminoso',
+    redirectTo: 'info-grupo/punto-luminoso',
+    pathMatch: 'full'
+  },
+  {
+    path: 'info-elcolor',
+    redirectTo: 'info-grupo/color',
+    pathMatch: 'full'
+  },
+  {
+    path: 'info-somos-ameca',
+    redirectTo: 'info-grupo/somos-ameca',
+    pathMatch: 'full'
+  },
+  {
+    path: 'info-ocv',
+    redirectTo: 'info-grupo/ocv',
+    pathMatch: 'full'
+  },
+  {
+    path: 'info-coincidir',
+    redirectTo: 'info-grupo/coincidir',
+    pathMatch: 'full'
+  },
+  {
+    path: 'info-valor-para-cambiar',
+    redirectTo: 'info-grupo/valor-para-cambiar',
+    pathMatch: 'full'
+  },
+  {
+    path: 'info-metamorfosis',
+    redirectTo: 'info-grupo/metamorfosis',
+    pathMatch: 'full'
+  },
+  {
+    path: 'info-almanova',
+    redirectTo: 'info-grupo/almanova',
+    pathMatch: 'full'
+  },
+  {
+    path: 'info-dan',
+    redirectTo: 'info-grupo/dan',
+    pathMatch: 'full'
+  },
+  {
+    path: 'info-dan-ameca',
+    redirectTo: 'info-grupo/dan-ameca',
+    pathMatch: 'full'
+  },
   {
     path: '',
     redirectTo: 'inicio',
