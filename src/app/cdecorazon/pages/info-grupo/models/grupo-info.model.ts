@@ -47,6 +47,7 @@ export const GRUPOS_INFO: Record<string, GrupoInfo> = {
     horarios: 'Lunes a Viernes de 4:00 PM a 10:00 PM y Sábados de 5:00 AM a 7:00 PM',
     telefono: '3319832168',
     facebook: 'https://www.facebook.com/puntoluminoso/',
+    instagram: 'https://www.instagram.com/grupo_puntoluminoso/',
     ubicacionMapaSrc: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.9076141704645!2d-103.38917842475311!3d20.673337280888514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae935be90517%3A0x733040f3277d3a3d!2sPunto%20Luminoso%20(Grupo%20de%20Alcoholicos%20Anonimos)!5e0!3m2!1ses-419!2smx!4v1744737858216!5m2!1ses-419!2smx',
     imageUrls: [
       'assets/grupos/puntoLuminoso/1.jpeg',
@@ -57,7 +58,7 @@ export const GRUPOS_INFO: Record<string, GrupoInfo> = {
   },
   'color': {
     id: 'color',
-    nombre: 'El color del Despertar',
+    nombre: 'El Color del Despertar',
     logoSrc: 'assets/grupos/color.png',
     descripcion: 'Grupo de autoayuda AA',
     horarios: 'Sábados de 6:00 PM a 8:00 PM',
@@ -87,7 +88,7 @@ export const GRUPOS_INFO: Record<string, GrupoInfo> = {
     horarios: 'Lunes a Miercoles de 7:00 PM a 9:00 PM y Viernes a Sabado de 7:00 PM a 9:00 PM',
     telefono: '3751182444',
     facebook: 'https://www.facebook.com/SomosDespertarAmeca',
-    instagram: 'https://www.instagram.com/colordespiert/',
+    instagram: 'https://www.instagram.com/somosameca/',
     ubicacionMapaSrc: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.97357237956!2d-104.04470892475648!3d20.5482621809836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b960247a557b097%3A0x4870a01877d86a9!2sSomos%20Ameca%20(Grupo%20de%20Alcoh%C3%B3licos%20An%C3%B3nimos)!5e0!3m2!1ses-419!2smx!4v1744740732748!5m2!1ses-419!2smx',
     imageUrls: [
       'assets/grupos/SomosAmeca/1.jpeg',
@@ -107,6 +108,7 @@ export const GRUPOS_INFO: Record<string, GrupoInfo> = {
     horarios: 'Lunes a Sábado de 8:00 a 10:00 PM.',
     telefono: '3314161065',
     facebook: 'https://www.facebook.com/profile.php?id=61561069166901',
+    instagram: 'https://www.instagram.com/grupocoincidir/?igsh=MWdvcWd1MnJydDBoNA%3D%3D',
     ubicacionMapaSrc: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.97357237956!2d-104.04470892475648!3d20.5482621809836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b960247a557b097%3A0x4870a01877d86a9!2sSomos%20Ameca%20(Grupo%20de%20Alcoh%C3%B3licos%20An%C3%B3nimos)!5e0!3m2!1ses-419!2smx!4v1744740732748!5m2!1ses-419!2smx',
     imageUrls: [
       'assets/grupos/SomosAmeca/1.jpeg',
@@ -142,7 +144,8 @@ export const GRUPOS_INFO: Record<string, GrupoInfo> = {
     horarios: 'Lunes, Miercoles y Viernes de 6:30 pm a 8:30 pm',
     telefono: '3333613699',
     facebook: 'https://www.facebook.com/DANalanon',
-    ubicacionMapaSrc: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.304820072742!2d-103.39226552475465!3d20.616428580931746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ada76f8cc263%3A0x23b0c4dbef15e62f!2sC.%20Melocot%C3%B3n%203170%2C%2044980%20Guadalajara%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1744743051918!5m2!1ses-419!2smx',
+    instagram: 'https://www.instagram.com/despertar.al.nucleo/',
+    ubicacionMapaSrc: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.03762832653!2d-103.38704492549843!3d20.668048080892618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428af5d436bed71%3A0xd30371fb27b2251f!2sDespertar%20al%20Nucleo%20(Al-Anon)!5e0!3m2!1ses-419!2smx!4v1744750622498!5m2!1ses-419!2smx',
     imageUrls: [
       'assets/grupos/dan/1.webp',
       'assets/grupos/dan/2.webp',
@@ -161,7 +164,7 @@ export const GRUPOS_INFO: Record<string, GrupoInfo> = {
     id: 'metamorfosis',
     nombre: 'Grupo Metamorfosis Alateen',
     logoSrc: 'assets/grupos/alateen.png',
-    descripcion: 'Grupo de Al-Anon',
+    descripcion: 'Grupo de Alateen',
     horarios: 'Sábado de 1 pm a 3 pm, Domingo de 11 am a 1 pm',
     telefono: '3333613699',
     facebook: 'https://www.facebook.com/metamorfosisalateen',
@@ -183,13 +186,13 @@ export const GRUPOS_INFO: Record<string, GrupoInfo> = {
   },
   'almanova': {
     id: 'almanova',
-    nombre: 'Grupo Alma nova Alateen',
+    nombre: 'Grupo Alma Nova Al-Anon Hijos Adultos',
     logoSrc: 'assets/grupos/alma-nova.png',
     descripcion: 'Grupo de Alateen',
     horarios: 'Sábado de 1 pm a 3 pm, Domingo de 11 am a 1 pm',
     telefono: '3333613699',
-    facebook: 'https://www.facebook.com/metamorfosisalateen',
-    instagram: 'https://www.instagram.com/metamorfosis_alateen',
+    facebook: 'https://www.facebook.com/profile.php?id=100090134182744',
+    instagram: 'https://www.instagram.com/alma_nova_alanon/',
     ubicacionMapaSrc: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29864.314806206334!2d-103.38443!3d20.667978000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae748602e2af%3A0x2c01ae8253c321d7!2sAv.%20de%20los%20Arcos%20611%2C%20Jardines%20del%20Bosque%2C%2044520%20Guadalajara%2C%20Jal.%2C%20M%C3%A9xico!5e0!3m2!1ses!2sus!4v1713213091837!5m2!1ses!2sus',
     imageUrls: [
       'assets/grupos/dan/1.webp',
@@ -213,7 +216,7 @@ export const GRUPOS_INFO: Record<string, GrupoInfo> = {
     horarios: 'Jueves de 6 PM a 8 PM y Sábados de 5 PM a 7 PM',
     telefono: '3344645748',
     facebook: 'https://www.facebook.com/AlanonAmeca',
-    instagram: 'https://www.instagram.com/dan_ameca?igsh=MTRnZzEwZjNxbmF2Zg==',
+    instagram: 'https://www.instagram.com/dan_ameca/?igsh=MTRnZzEwZjNxbmF2Zg%3D%3D#',
     ubicacionMapaSrc: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14943.894307212491!2d-104.042134!3d20.548262!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8426764f7dcce3c1%3A0x5a32b2be0f16671b!2sC.%20Guti%C3%A9rrez%2095%2C%20Los%20Naranjos%2C%2046600%20Ameca%2C%20Jal.%2C%20M%C3%A9xico!5e0!3m2!1ses!2sus!4v1713214224717!5m2!1ses!2sus',
     imageUrls: [
       'assets/grupos/dan/1.webp',
