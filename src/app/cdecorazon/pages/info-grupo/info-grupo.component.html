@@ -1,11 +1,11 @@
-<div class="container mx-auto pb-5">
+<div class="container mx-auto pb-5 w-full px-2">
   <div class="flex flex-col gap-5" *ngIf="grupoInfo">
 
-    <div class="flex flex-row gap-5">
-      <div class="basis-3/12 bg-slate-300 rounded-xl px-10 py-5">
+    <div class="flex flex-col md:flex-row gap-5">
+      <div class="basis-full md:basis-3/12 bg-slate-300 rounded-xl px-10 py-5">
         <app-card-logo-title [srcImg]="grupoInfo.logoSrc" [nombreGrupo]="grupoInfo.nombre"></app-card-logo-title>
       </div>
-      <div class="basis-5/12 bg-slate-300 rounded-xl p-6">
+      <div class="basis-full md:basis-5/12 bg-slate-300 rounded-xl p-6">
         <info-grupo [descripcion]="grupoInfo.descripcion"
                    [horarios]="grupoInfo.horarios"
                    [telefono]="grupoInfo.telefono"
@@ -13,23 +13,23 @@
                    [instagram]="grupoInfo.instagram"></info-grupo>
       </div>
 
-      <div class="basis-2/12 bg-slate-300 rounded-xl p-6">
+      <div class="basis-full md:basis-4/12 bg-slate-300 rounded-xl p-6">
         <h2 class="text-4xl text-center text-gray-700 mb-2">Ubicación:</h2>
 
         <iframe
           [src]="grupoInfo.ubicacionMapaSrc | safeResourceUrl"
           width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+          referrerpolicy="no-referrer-when-downgrade" class="w-full"></iframe>
       </div>
     </div>
 
-    <div class="flex flex-row gap-5">
-      <div class="basis-9/12 bg-slate-300 rounded-xl p-6">
+    <div class="flex flex-col md:flex-row gap-5">
+      <div class="basis-full md:basis-9/12 bg-slate-300 rounded-xl p-6">
         <h2 class="text-4xl text-gray-700 mb-2">Fotos:</h2>
         <card-fotos [srcImgs]="imageUrls"></card-fotos>
       </div>
 
-      <div class="basis-3/12 bg-slate-300 rounded-xl px-10 py-5 h-fit sticky top-24">
+      <div class="basis-full md:basis-3/12 bg-slate-300 rounded-xl px-10 py-5 h-fit sticky top-24">
         <h2 class="text-4xl text-gray-700 mb-2">Rutas de camion:</h2>
         <card-rutas-camion [rutas]="rutas"></card-rutas-camion>
       </div>
