@@ -62,13 +62,13 @@ import { InfoGrupo } from '../components/info-grupo/info-grupo.component';
 })
 export class InfoAlmanovaComponent {
   imageUrls: string[] = [
-    'assets/grupos/alma-nova/1.webp',
-    'assets/grupos/alma-nova/2.webp',
-    'assets/grupos/alma-nova/3.webp',
-    'assets/grupos/alma-nova/4.webp',
-    'assets/grupos/alma-nova/5.webp',
-    'assets/grupos/alma-nova/6.webp',
-    'assets/grupos/alma-nova/7.webp',
+    'assets/grupos/alma-nova/1.jpeg',
+    'assets/grupos/alma-nova/2.jpeg',
+    'assets/grupos/alma-nova/3.jpeg',
+    'assets/grupos/alma-nova/4.jpeg',
+    'assets/grupos/alma-nova/5.jpeg',
+    'assets/grupos/alma-nova/6.jpeg',
+    // 'assets/grupos/alma-nova/7.jpeg', // Este archivo no existe
   ];
 
   rutas: Rutas[] = [

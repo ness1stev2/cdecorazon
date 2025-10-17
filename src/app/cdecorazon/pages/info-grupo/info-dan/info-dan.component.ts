@@ -17,7 +17,7 @@ import { InfoGrupo } from '../components/info-grupo/info-grupo.component';
 
     <div class="flex flex-wrap lg:flex-nowrap flex-row gap-5 justify-center">
       <div class="flex-auto lg:basis-3/12 bg-slate-300 rounded-xl px-10 py-5 max-w-fit">
-        <app-card-logo-title srcImg="assets/grupos/al-anon.png" nombreGrupo="Despertar al Nucleo Ameca"/>
+        <app-card-logo-title srcImg="/assets/grupos/al-anon.png" nombreGrupo="Despertar al Nucleo Ameca"/>
       </div>
       <div class="flex-auto lg:basis-5/12 bg-slate-300 rounded-xl p-6">
 
@@ -58,15 +58,15 @@ import { InfoGrupo } from '../components/info-grupo/info-grupo.component';
 })
 export class InfoDanComponent {
   imageUrls: string[] = [
-    'assets/grupos/metamorfosis/1.jpeg',
-    'assets/grupos/metamorfosis/3.jpeg',
-    'assets/grupos/metamorfosis/4.jpeg',
-    'assets/grupos/metamorfosis/6.jpeg',
-    'assets/grupos/metamorfosis/7.jpeg',
-    'assets/grupos/dan/1.webp',
-    'assets/grupos/dan/2.webp',
-    'assets/grupos/dan/3.webp',
-    'assets/grupos/dan/4.webp',
+    '/assets/grupos/metamorfosis/1.jpeg',
+    '/assets/grupos/metamorfosis/3.jpeg',
+    '/assets/grupos/metamorfosis/4.jpeg',
+    '/assets/grupos/metamorfosis/6.jpeg',
+    '/assets/grupos/metamorfosis/7.jpeg',
+    '/assets/grupos/dan/1.webp',
+    '/assets/grupos/dan/2.webp',
+    '/assets/grupos/dan/3.webp',
+    '/assets/grupos/dan/4.webp',
   ];
 
   rutas: Rutas[] = [

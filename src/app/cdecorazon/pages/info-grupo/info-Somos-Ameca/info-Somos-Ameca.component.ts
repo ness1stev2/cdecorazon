@@ -18,7 +18,7 @@ import { InfoGrupo } from '../components/info-grupo/info-grupo.component';
 
     <div class="flex flex-wrap lg:flex-nowrap flex-row gap-5 justify-center">
       <div class="flex-auto lg:basis-3/12 bg-slate-300 rounded-xl px-10 py-5 max-w-fit">
-        <app-card-logo-title srcImg="assets/grupos/ameca.png" nombreGrupo="Grupo Somos Ameca"></app-card-logo-title>
+        <app-card-logo-title srcImg="/assets/grupos/ameca.png" nombreGrupo="Grupo Somos Ameca"></app-card-logo-title>
       </div>
       <div class="flex-auto lg:basis-5/12 bg-slate-300 rounded-xl p-6">
 
@@ -62,10 +62,10 @@ import { InfoGrupo } from '../components/info-grupo/info-grupo.component';
 })
 export class InfoSomosAmecaComponent {
   imageUrls: string[] = [
-    'assets/grupos/SomosAmeca/1.jpeg',
-    'assets/grupos/SomosAmeca/2.jpeg',
-    'assets/grupos/SomosAmeca/3.jpeg',
-    'assets/grupos/SomosAmeca/4.jpeg'
+    '/assets/grupos/SomosAmeca/1.jpeg',
+    '/assets/grupos/SomosAmeca/2.jpeg',
+    '/assets/grupos/SomosAmeca/3.jpeg',
+    '/assets/grupos/SomosAmeca/4.jpeg'
   ];
 
 

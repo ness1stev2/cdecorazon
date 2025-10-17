@@ -17,7 +17,7 @@ import { CardLogoTitleComponent } from "../components/card-logo-title/card-logo-
 
       <div class="flex flex-wrap lg:flex-nowrap flex-row gap-5 justify-center">
         <div class="flex-auto lg:basis-3/12 bg-slate-300 rounded-xl px-10 py-5 max-w-fit">
-          <app-card-logo-title srcImg="assets/grupos/coincidir.png" nombreGrupo="Grupo Coincidir"/>
+          <app-card-logo-title srcImg="/assets/grupos/coincidir.png" nombreGrupo="Grupo Coincidir"/>
         </div>
         <div class="flex-auto lg:basis-5/12 bg-slate-300 rounded-xl p-6">
 
@@ -58,8 +58,8 @@ import { CardLogoTitleComponent } from "../components/card-logo-title/card-logo-
 })
 export class InfoCoincidirComponent {
   imageUrls: string[] = [
-    'assets/grupos/Coincidir/2.jpeg',
-    'assets/grupos/Coincidir/3.jpeg',
+    '/assets/grupos/Coincidir/2.jpeg',
+    '/assets/grupos/Coincidir/3.jpeg',
   ];
 
   rutas: Rutas[] = [

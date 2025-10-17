@@ -17,7 +17,7 @@ import { CardFotosComponent } from "../components/card-fotos/card-fotos.componen
 
     <div class="flex flex-wrap lg:flex-nowrap flex-row gap-5 justify-center">
       <div class="flex-auto lg:basis-3/12 bg-slate-300 rounded-xl px-10 py-5 max-w-fit">
-        <app-card-logo-title srcImg="assets/grupos/ocv.png" nombreGrupo="Otra Clase de Vuelo"/>
+        <app-card-logo-title srcImg="/assets/grupos/ocv.png" nombreGrupo="Otra Clase de Vuelo"/>
       </div>
       <div class="flex-auto lg:basis-5/12 bg-slate-300 rounded-xl p-6">
 
@@ -66,10 +66,10 @@ import { CardFotosComponent } from "../components/card-fotos/card-fotos.componen
 })
 export class InfoOcvComponent {
   imageUrls: string[] = [
-    'assets/grupos/OCV/1.jpeg',
-    'assets/grupos/OCV/3.jpeg',
-    'assets/grupos/OCV/4.jpeg',
-    'assets/grupos/OCV/5.jpeg'
+    '/assets/grupos/OCV/1.jpeg',
+    '/assets/grupos/OCV/3.jpeg',
+    '/assets/grupos/OCV/4.jpeg',
+    '/assets/grupos/OCV/5.jpeg'
   ];
 
   rutas: Rutas[] = [

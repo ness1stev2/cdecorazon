@@ -23,7 +23,43 @@ import { SafeResourceUrlPipe } from '../../../shared/pipes/safe-url.pipe';
     SafeResourceUrlPipe
   ],
   templateUrl: './info-grupo.component.html',
-  styles: ``
+  styles: `
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .animate-fadeIn {
+      animation: fadeIn 0.8s ease-out;
+    }
+
+    /* Animación para las cards */
+    .basis-full {
+      animation: slideInUp 0.6s ease-out;
+    }
+
+    @keyframes slideInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Efecto parallax suave para el sticky */
+    .sticky {
+      transition: all 0.3s ease;
+    }
+  `
 })
 export class InfoGrupoComponent implements OnInit {
   grupoInfo: GrupoInfo | undefined;

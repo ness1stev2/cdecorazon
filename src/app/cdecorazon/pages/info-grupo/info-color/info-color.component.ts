@@ -58,14 +58,9 @@ import { InfoGrupo } from '../components/info-grupo/info-grupo.component';
 })
 export class InfoColorComponent {
   imageUrls: string[] = [
-    'assets/grupos/color/3.webp',
-    'assets/grupos/color/4.webp',
-    'assets/grupos/color/5.webp',
-    'assets/grupos/color/6.webp',
-    'assets/grupos/color/1.webp',
-    'assets/grupos/color/1.jpeg',
-    'assets/grupos/color/2.jpeg',
-    'assets/grupos/color/2.webp',
+    'assets/grupos/color/sala_del_color.jpeg',
+    'assets/grupos/color/fachada1.jpeg',
+    'assets/grupos/color/fachada2.jpeg',
   ];
 
   rutas: Rutas[] = [

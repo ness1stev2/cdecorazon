@@ -17,7 +17,7 @@ import { CardFotosComponent } from "../components/card-fotos/card-fotos.componen
 
     <div class="flex flex-wrap lg:flex-nowrap flex-row gap-5 justify-center">
       <div class="flex-auto lg:basis-3/12 bg-slate-300 rounded-xl px-10 py-5 max-w-fit">
-        <app-card-logo-title srcImg="assets/grupos/punto-luminoso.png" nombreGrupo="Punto Luminoso"/>
+        <app-card-logo-title srcImg="/assets/grupos/punto-luminoso.png" nombreGrupo="Punto Luminoso"/>
       </div>
       <div class="flex-auto lg:basis-5/12 bg-slate-300 rounded-xl p-6">
 
@@ -58,7 +58,7 @@ import { CardFotosComponent } from "../components/card-fotos/card-fotos.componen
 })
 export class InfoPuntoLuminosoComponent {
   imageUrls: string[] = [
-    'assets/grupos/OCV/1.jpeg',
+    '/assets/grupos/OCV/1.jpeg',
   ];
 
   rutas: Rutas[] = [

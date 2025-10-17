@@ -17,7 +17,7 @@ import { Rutas, CardRutasCamionComponent } from '../components/card-rutas-camion
 
     <div class="flex flex-wrap lg:flex-nowrap flex-row gap-5 justify-center">
       <div class="flex-auto lg:basis-3/12 bg-slate-300 rounded-xl px-10 py-5 max-w-fit">
-        <app-card-logo-title srcImg="assets/grupos/alateen.png" nombreGrupo="Metamorfosis Alateen"/>
+        <app-card-logo-title srcImg="/assets/grupos/alateen.png" nombreGrupo="Metamorfosis Alateen"/>
       </div>
       <div class="flex-auto lg:basis-5/12 bg-slate-300 rounded-xl p-6">
 
@@ -59,30 +59,30 @@ import { Rutas, CardRutasCamionComponent } from '../components/card-rutas-camion
 export class InfoMetamorfosisComponent {
 
   imageUrls: string[] = [
-    'assets/grupos/metamorfosis/1.jpeg',
-    'assets/grupos/metamorfosis/3.jpeg',
-    'assets/grupos/metamorfosis/4.jpeg',
-    'assets/grupos/metamorfosis/6.jpeg',
-    'assets/grupos/metamorfosis/7.jpeg',
-    'assets/grupos/metamorfosis/1.webp',
-    'assets/grupos/metamorfosis/2.webp',
-    'assets/grupos/metamorfosis/3.webp',
-    'assets/grupos/metamorfosis/4.webp',
-    'assets/grupos/metamorfosis/5.webp',
-    'assets/grupos/metamorfosis/6.webp',
-    'assets/grupos/metamorfosis/7.webp',
-    'assets/grupos/metamorfosis/8.webp',
-    'assets/grupos/metamorfosis/9.webp',
-    'assets/grupos/metamorfosis/10.webp',
-    'assets/grupos/metamorfosis/11.webp',
-    'assets/grupos/metamorfosis/12.webp',
-    'assets/grupos/metamorfosis/13.webp',
-    'assets/grupos/metamorfosis/14.webp',
-    'assets/grupos/metamorfosis/15.webp',
-    'assets/grupos/metamorfosis/16.webp',
-    'assets/grupos/metamorfosis/17.webp',
-    'assets/grupos/metamorfosis/18.webp',
-    'assets/grupos/metamorfosis/19.webp',
+    '/assets/grupos/metamorfosis/1.jpeg',
+    '/assets/grupos/metamorfosis/3.jpeg',
+    '/assets/grupos/metamorfosis/4.jpeg',
+    '/assets/grupos/metamorfosis/6.jpeg',
+    '/assets/grupos/metamorfosis/7.jpeg',
+    '/assets/grupos/metamorfosis/1.webp',
+    '/assets/grupos/metamorfosis/2.webp',
+    '/assets/grupos/metamorfosis/3.webp',
+    '/assets/grupos/metamorfosis/4.webp',
+    '/assets/grupos/metamorfosis/5.webp',
+    '/assets/grupos/metamorfosis/6.webp',
+    '/assets/grupos/metamorfosis/7.webp',
+    '/assets/grupos/metamorfosis/8.webp',
+    '/assets/grupos/metamorfosis/9.webp',
+    '/assets/grupos/metamorfosis/10.webp',
+    '/assets/grupos/metamorfosis/11.webp',
+    '/assets/grupos/metamorfosis/12.webp',
+    '/assets/grupos/metamorfosis/13.webp',
+    '/assets/grupos/metamorfosis/14.webp',
+    '/assets/grupos/metamorfosis/15.webp',
+    '/assets/grupos/metamorfosis/16.webp',
+    '/assets/grupos/metamorfosis/17.webp',
+    '/assets/grupos/metamorfosis/18.webp',
+    '/assets/grupos/metamorfosis/19.webp',
   ];
 
   rutas: Rutas[] = [
